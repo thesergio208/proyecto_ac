@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gama de equipos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 40px;
+      color: #333;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    .gama {
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-left: 5px solid #007acc;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h3 {
+      margin-top: 20px;
+      color: #005288;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    .pros {
+      color: green;
+    }
+    .contras {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Comparativa de Procesadores por Gama</h1>
+
+  <div class="gama">
+    <h2>GAMA BAJA</h2>
+
+    <h3>Intel Celeron G6900</h3>
+    <ul>
+      <li><strong>Núcleos/Hilos:</strong> 2 / 2</li>
+      <li><strong>Frecuencia:</strong> 3.4 GHz (sin Turbo)</li>
+      <li><strong>GPU integrada:</strong> Intel UHD Graphics 710</li>
+      <li><strong>Cache:</strong> 4MB L3</li>
+      <li><strong>TDP:</strong> 46W</li>
+      <li class="pros"><strong>Pros:</strong> Económico, bajo consumo.</li>
+      <li class="contras"><strong>Contras:</strong> No sirve para multitarea o juegos.</li>
+    </ul>
+
+    <h3>AMD Athlon 3000G</h3>
+    <ul>
+      <li><strong>Núcleos/Hilos:</strong> 2 / 4</li>
+      <li><strong>Frecuencia:</strong> 3.5 GHz (sin Turbo)</li>
+      <li><strong>GPU integrada:</strong> Radeon Vega 3</li>
+      <li><strong>Cache:</strong> 5MB L3</li>
+      <li><strong>TDP:</strong> 35W</li>
+      <li class="pros"><strong>Pros:</strong> Gráficos integrados decentes, desbloqueado para overclock.</li>
+      <li class="contras"><strong>Contras:</strong> Solo compatible con DDR4 (limitado a placas AM4 antiguas).</li>
+    </ul>
+  </div>
+
+  <div class="gama">
+    <h2>GAMA MEDIA</h2>
+
+    <h3>Intel Core i5-13400F</h3>
+    <ul>
+      <li><strong>Núcleos/Hilos:</strong> 10 (6P+4E) / 16</li>
+      <li><strong>Frecuencia:</strong> 2.5 GHz / 4.6 GHz (Turbo)</li>
+      <li><strong>GPU integrada:</strong> No (requiere tarjeta gráfica)</li>
+      <li><strong>Cache:</strong> 20MB L3</li>
+      <li><strong>TDP:</strong> 65W</li>
+      <li class="pros"><strong>Pros:</strong> Buen rendimiento en juegos y aplicaciones.</li>
+      <li class="contras"><strong>Contras:</strong> Sin gráficos integrados.</li>
+    </ul>
+
+    <h3>AMD Ryzen 5 7600 (AM5)</h3>
+    <ul>
+      <li><strong>Núcleos/Hilos:</strong> 6 / 12</li>
+      <li><strong>Frecuencia:</strong> 3.8 GHz / 5.1 GHz</li>
+      <li><strong>GPU integrada:</strong> Radeon Graphics (2 núcleos)</li>
+      <li><strong>Cache:</strong> 32MB L3</li>
+      <li><strong>TDP:</strong> 65W</li>
+      <li class="pros"><strong>Pros:</strong> Soporta DDR5 y PCIe 5.0, eficiente.</li>
+      <li class="contras"><strong>Contras:</strong> Plataforma AM5 más cara (DDR5 obligatoria).</li>
+    </ul>
+  </div>
+
+  <div class="gama">
+    <h2>GAMA ALTA</h2>
+
+    <h3>Intel Core i9-14900K</h3>
+    <ul>
+      <li><strong>Núcleos/Hilos:</strong> 24 (8P+16E) / 32</li>
+      <li><strong>Frecuencia:</strong> 3.2 GHz / 6.0 GHz (Turbo)</li>
+      <li><strong>GPU integrada:</strong> Intel UHD Graphics 770</li>
+      <li><strong>Cache:</strong> 36MB L3</li>
+      <li><strong>TDP:</strong> 125W (hasta 253W en carga)</li>
+      <li class="pros"><strong>Pros:</strong> Máximo rendimiento en single-core y multi-core.</li>
+      <li class="contras"><strong>Contras:</strong> Alto consumo y calor.</li>
+    </ul>
+
+    <h3>AMD Ryzen 9 7950X3D</h3>
+    <ul>
+      <li><strong>Núcleos/Hilos:</strong> 16 / 32</li>
+      <li><strong>Frecuencia:</strong> 4.2 GHz / 5.7 GHz</li>
+      <li><strong>GPU integrada:</strong> Radeon Graphics (2 núcleos)</li>
+      <li><strong>Cache:</strong> 128MB L3 (3D V-Cache)</li>
+      <li><strong>TDP:</strong> 120W</li>
+      <li class="pros"><strong>Pros:</strong> Excelente para gaming y productividad (mejor cache que Intel).</li>
+      <li class="contras"><strong>Contras:</strong> Precio elevado, requiere refrigeración robusta.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

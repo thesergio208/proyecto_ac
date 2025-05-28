@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Índice de la Materia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ffffff, #d4e4ff);
+            min-height: 100vh;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .titulo {
+            font-size: 60px;
+            color: #003366;
+            font-weight: bold;
+            margin-bottom: 40px;
+            animation: fadeInDown 1s ease;
+        }
+
+        .lista {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 40px;
+        }
+
+        .lista li {
+            font-size: 28px;
+            margin: 10px 0;
+        }
+
+        .lista a {
+            color: #004b99;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .lista a:hover {
+            background-color: #00b3c9;
+            color: white;
+        }
+
+        .document-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 30px;
+            padding: 0 10px;
+            margin-bottom: 60px;
+        }
+
+        .document-item {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .document-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .document-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: #0077cc;
+        }
+
+        .document-title {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 12px;
+            color: #004b99;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: #004b99;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #00b3c9;
+        }
+
+        .btn-regresar {
+            display: inline-block;
+            background-color: #003366;
+            color: white;
+            font-size: 18px;
+            padding: 12px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-regresar:hover {
+            background-color: #c0392b;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="titulo">ÍNDICE DE LA MATERIA</h1>
+
+    <ul class="lista">
+        <li><a href="UNIDAD1.html">Unidad 1</a></li>
+        <li><a href="UNIDAD2.html">Unidad 2</a></li>
+        <li><a href="UNIDAD3.html">Unidad 3</a></li>
+        <li><a href="UNIDAD4.html">Unidad 4</a></li>
+    </ul>
+
+    <div class="document-grid">
+        <div class="document-item">
+            <div class="document-icon">📄</div>
+            <div class="document-title">Reporte de Placas</div>
+            <a href="Reporte_de_placas.html" class="download-btn">Abrir</a>
+        </div>
+
+        <div class="document-item">
+            <div class="document-icon">📑</div>
+            <div class="document-title">Procesadores</div>
+            <a href="Procesadores.html" class="download-btn">Abrir</a>
+        </div>
+
+        <div class="document-item">
+            <div class="document-icon">📊</div>
+            <div class="document-title">Gamas de Equipo</div>
+            <a href="Gama_de_Equipos.html" class="download-btn">Abrir</a>
+        </div>
+
+        <div class="document-item">
+            <div class="document-icon">📝</div>
+            <div class="document-title">Memorias</div>
+            <a href="Memorias.html" class="download-btn">Abrir</a>
+        </div>
+
+        <div class="document-item">
+            <div class="document-icon">🎮</div>
+            <div class="document-title">Realidad Virtual</div>
+            <a href="Realidad_virtual.html" class="download-btn">Abrir</a>
+        </div>
+
+        <div class="document-item">
+            <div class="document-icon">💻</div>
+            <div class="document-title">Ensamble de CPU</div>
+            <a href="CPU.html" class="download-btn">Abrir</a>
+        </div>
+    </div>
+
+    <a href="index.html" class="btn-regresar">Regresar a la página principal</a>
+
+</body>
+</html>

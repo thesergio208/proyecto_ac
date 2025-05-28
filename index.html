@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portada - Instituto Tecnológico de Saltillo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ffffff, #d4e4ff);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 180px;
+            margin-bottom: 30px;
+            animation: fadeInDown 1s ease;
+        }
+
+        .titulo {
+            font-size: 60px;
+            color: #003366;
+            font-weight: bold;
+            margin-bottom: 15px;
+            animation: fadeInUp 1s ease;
+        }
+
+        .subtitulo {
+            font-size: 42px;
+            color: #004b99;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .nombre {
+            font-size: 32px;
+            color: #0077cc;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .boton {
+            padding: 14px 32px;
+            background-color: #004b99;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-size: 22px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .boton:hover {
+            background-color: #00b3c9;
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .titulo {
+                font-size: 46px;
+            }
+
+            .subtitulo {
+                font-size: 32px;
+            }
+
+            .nombre {
+                font-size: 26px;
+            }
+
+            .boton {
+                font-size: 20px;
+                padding: 12px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Logo del ITS (cambia la ruta si usas una imagen desde la web) -->
+    <img src="Logotec.png" alt="Logo ITS" class="logo">
+
+    <h1 class="titulo">Instituto Tecnológico de Saltillo</h1>
+    <h2 class="subtitulo">Arquitectura de Computadoras</h2>
+    <p class="nombre">Sergio Gerardo García Hernández</p>
+
+    <div class="botones">
+        <a href="https://saltillo.tecnm.mx" class="boton">Página del ITS</a>
+        <a href="Estructura.html" class="boton">Contenido</a>
+    </div>
+
+</body>
+</html>
