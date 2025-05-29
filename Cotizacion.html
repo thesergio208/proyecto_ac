@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cotizaciones de Equipos - AMD e Intel</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffffff, #d4e4ff);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #003366;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 32px;
+      color: #004b99;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .seccion {
+      margin-bottom: 50px;
+    }
+
+    .imagen {
+      width: 300px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 95%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #0077cc;
+      color: white;
+      font-size: 18px;
+    }
+
+    td {
+      font-size: 16px;
+    }
+
+    .boton-regresar {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #004b99;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      transition: 0.3s ease;
+    }
+
+    .boton-regresar:hover {
+      background-color: #0077cc;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      h2 {
+        font-size: 26px;
+      }
+
+      .imagen {
+        width: 90%;
+      }
+
+      th, td {
+        font-size: 14px;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Cotizaciones de Equipos AMD e Intel</h1>
+
+  <!-- Gama Baja -->
+  <div class="seccion">
+    <h2>Gama Baja</h2>
+    <img src="img/baja.jpg" alt="PC Gama Baja" class="imagen">
+    <table>
+      <tr>
+        <th>Componente</th>
+        <th>AMD</th>
+        <th>Intel</th>
+      </tr>
+      <tr>
+        <td>Procesador</td>
+        <td>Ryzen 3 3200G</td>
+        <td>Intel Core i3-10100</td>
+      </tr>
+      <tr>
+        <td>Placa Base</td>
+        <td>ASRock A320M-HDV</td>
+        <td>Gigabyte H410M-H</td>
+      </tr>
+      <tr>
+        <td>RAM</td>
+        <td>8 GB DDR4</td>
+        <td>8 GB DDR4</td>
+      </tr>
+      <tr>
+        <td>Almacenamiento</td>
+        <td>SSD 256 GB</td>
+        <td>SSD 256 GB</td>
+      </tr>
+      <tr>
+        <td>Tarjeta Gráfica</td>
+        <td>Integrada (Vega 8)</td>
+        <td>Integrada (UHD 630)</td>
+      </tr>
+      <tr>
+        <td>Fuente de poder</td>
+        <td>500W básica</td>
+        <td>500W básica</td>
+      </tr>
+      <tr>
+        <td>Gabinete</td>
+        <td>Micro ATX sencillo</td>
+        <td>Micro ATX sencillo</td>
+      </tr>
+      <tr>
+        <th>Precio Estimado</th>
+        <td>$4,500 MXN</td>
+        <td>$4,800 MXN</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Gama Media -->
+  <div class="seccion">
+    <h2>Gama Media</h2>
+    <img src="img/media.jpg" alt="PC Gama Media" class="imagen">
+    <table>
+      <tr>
+        <th>Componente</th>
+        <th>AMD</th>
+        <th>Intel</th>
+      </tr>
+      <tr>
+        <td>Procesador</td>
+        <td>Ryzen 5 5600G</td>
+        <td>Intel Core i5-12400</td>
+      </tr>
+      <tr>
+        <td>Placa Base</td>
+        <td>MSI B550M PRO-VDH</td>
+        <td>ASUS B660M-A</td>
+      </tr>
+      <tr>
+        <td>RAM</td>
+        <td>16 GB DDR4</td>
+        <td>16 GB DDR4</td>
+      </tr>
+      <tr>
+        <td>Almacenamiento</td>
+        <td>SSD 512 GB</td>
+        <td>SSD 512 GB</td>
+      </tr>
+      <tr>
+        <td>Tarjeta Gráfica</td>
+        <td>Integrada (Vega 7)</td>
+        <td>Integrada (UHD 730)</td>
+      </tr>
+      <tr>
+        <td>Fuente de poder</td>
+        <td>600W certificada</td>
+        <td>600W certificada</td>
+      </tr>
+      <tr>
+        <td>Gabinete</td>
+        <td>ATX con ventiladores</td>
+        <td>ATX con ventiladores</td>
+      </tr>
+      <tr>
+        <th>Precio Estimado</th>
+        <td>$8,500 MXN</td>
+        <td>$9,200 MXN</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Gama Alta -->
+  <div class="seccion">
+    <h2>Gama Alta</h2>
+    <img src="img/alta.jpg" alt="PC Gama Alta" class="imagen">
+    <table>
+      <tr>
+        <th>Componente</th>
+        <th>AMD</th>
+        <th>Intel</th>
+      </tr>
+      <tr>
+        <td>Procesador</td>
+        <td>Ryzen 9 7900X</td>
+        <td>Intel Core i9-13900K</td>
+      </tr>
+      <tr>
+        <td>Placa Base</td>
+        <td>X670E AORUS Elite</td>
+        <td>Z790 AORUS Elite AX</td>
+      </tr>
+      <tr>
+        <td>RAM</td>
+        <td>32 GB DDR5</td>
+        <td>32 GB DDR5</td>
+      </tr>
+      <tr>
+        <td>Almacenamiento</td>
+        <td>1 TB NVMe SSD</td>
+        <td>1 TB NVMe SSD</td>
+      </tr>
+      <tr>
+        <td>Tarjeta Gráfica</td>
+        <td>Radeon RX 7900 XT</td>
+        <td>GeForce RTX 4080</td>
+      </tr>
+      <tr>
+        <td>Fuente de poder</td>
+        <td>850W 80+ Gold</td>
+        <td>850W 80+ Gold</td>
+      </tr>
+      <tr>
+        <td>Gabinete</td>
+        <td>Full Tower RGB</td>
+        <td>Full Tower RGB</td>
+      </tr>
+      <tr>
+        <th>Precio Estimado</th>
+        <td>$22,000 MXN</td>
+        <td>$24,000 MXN</td>
+      </tr>
+    </table>
+  </div>
+
+  <a href="index.html" class="boton-regresar">Regresar a Inicio</a>
+
+</body>
+</html>
